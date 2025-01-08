@@ -1,0 +1,32 @@
+Source: kdsoap-ws-discovery-client
+Section: unknown
+Priority: optional
+Maintainer: EasyNetDev <deve@easynet.dev>
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+Standards-Version: 4.7.0
+Homepage: https://github.com/KDE/kdsoap-ws-discovery-client
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/kdsoap-ws-discovery-client.git
+#Vcs-Browser: https://salsa.debian.org/debian/kdsoap-ws-discovery-client
+
+Package: libkdsoap-ws-discovery-client
+Architecture: any
+Multi-Arch: foreign
+Depends: qt6-base-dev (>= 6.0.0~),
+ libkdsoap2 (>= 2.0.0~),
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: KDSoap WS-Discovery client
+ WS-Discovery client library based on the KDSoap library. It uses modern C++ 11 and Qt 5.
+
+Package: libkdsoap-ws-discovery-client-dev
+Architecture: any
+Multi-Arch: foreign
+Depends: qt6-base-dev (>= 6.0.0~),
+ libkdsoap2 (>= 2.0.0~),
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: KDSoap WS-Discovery client - devel files
+ WS-Discovery client library based on the KDSoap library. It uses modern C++ 11 and Qt 5.

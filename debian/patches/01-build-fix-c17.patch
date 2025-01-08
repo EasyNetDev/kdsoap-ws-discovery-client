@@ -1,0 +1,12 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -5,6 +5,9 @@
+ 
+ project(kdsoap-ws-discovery-client VERSION 0.4.0)
+ 
++set(CMAKE_CXX_STANDARD 17)
++set(CMAKE_CXX_STANDARD_REQUIRED ON)
++
+ include(FeatureSummary)
+ find_package(ECM 5.54.0  NO_MODULE)
+ set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://develop.kde.org/products/frameworks/")
