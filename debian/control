@@ -15,7 +15,7 @@ Package: libkdsoap-ws-discovery-client
 Architecture: any
 Multi-Arch: foreign
 Depends: qt6-base-dev (>= 6.0.0~),
- libkdsoap2 (>= 2.0.0~),
+ libkdsoap2-dev (>= 2.0.0~),
  ${misc:Depends},
  ${shlibs:Depends},
 Description: KDSoap WS-Discovery client
@@ -24,8 +24,7 @@ Description: KDSoap WS-Discovery client
 Package: libkdsoap-ws-discovery-client-dev
 Architecture: any
 Multi-Arch: foreign
-Depends: qt6-base-dev (>= 6.0.0~),
- libkdsoap2 (>= 2.0.0~),
+Depends: libkdsoap2 (>= 2.0.0~),
  ${misc:Depends},
  ${shlibs:Depends},
 Description: KDSoap WS-Discovery client - devel files
