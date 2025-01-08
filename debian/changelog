@@ -1,5 +1,5 @@
-kdsoap-ws-discovery-client (0.4.0-1) UNRELEASED; urgency=low
+kdsoap-ws-discovery-client (0.4.0-1) unstable; urgency=low
 
   * Initial release. Tries to fix: #1088117
 
- -- EasyNetDev <deve@easynet.dev>  Tue, 07 Jan 2025 22:34:22 +0100
+ -- EasyNetDev <devel@easynet.dev>  Tue, 07 Jan 2025 22:34:22 +0100
